@@ -6,9 +6,10 @@ class ListItem extends Component {
 	render() {
 		const { library } = this.props;
 		const { title } = library;
+		const { titleStyle } = styles;
 		return (
 			<CardSection>
-				<Text>{title}</Text>
+				<Text style={titleStyle}>{title}</Text>
 			</CardSection>
 		);
 	}
