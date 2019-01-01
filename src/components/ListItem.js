@@ -7,10 +7,10 @@ import styles from './styles/ListItemStyles';
 
 class ListItem extends Component {
 	_renderDescription() {
-		const { library, selectedLibraryId } = this.props;
-		const { id, description } = library;
+		const { library, expanded } = this.props;
+		const { description } = library;
 		const {} = styles;
-		if (id === selectedLibraryId) {
+		if (expanded) {
 			return <Text>{description}</Text>;
 		}
 	}
@@ -33,8 +33,9 @@ class ListItem extends Component {
 	}
 }
 
-const mapStateToProps = state => {
-	return { selectedLibraryId: state.selectedLibraryId };
+const mapStateToProps = (state, ownProps) => {
+	const expanded = state.selectedLibraryId === ownProps.library.id;
+	return { expanded };
 };
 
 export default connect(
