@@ -22,7 +22,7 @@
 ## About this app and the course
 
 This app was developed on the Udemy Course [The Complete React Native and Redux Course](https://www.udemy.com/the-complete-react-native-and-redux-course/) by [Stephen Grider](https://www.udemy.com/user/sgslo/).<br/>
-In this application is used <b>Redux</b> managing state of flatlist information with the app and is used <b>Animations</b> too when you click in some item list.
+In this application is used <b>Redux</b> managing state of flatlist information with the app and is used <b>Animations</b> too when you click in some list item.
 
 <br/>
 
