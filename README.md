@@ -26,6 +26,17 @@ In this application is used <b>Redux</b> managing state of flatlist information 
 
 <br/>
 
+## Tech Stack
+
+- [React Native](https://github.com/facebook/react-native)
+
+## Used libraries
+
+- [React Redux](https://github.com/reduxjs/react-redux)
+- [Redux](https://redux.js.org/)
+
+<br/>
+
 ### Running it locally
 
 - `git clone https://github.com/samuelmataraso/Albums.git`
