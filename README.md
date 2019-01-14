@@ -32,7 +32,7 @@ In this application is used <b>Redux</b> managing state of flatlist information 
 
 ## Used libraries
 
-- [React Redux](https://github.com/reduxjs/react-redux)
+- [React Redux](https://react-redux.js.org/)
 - [Redux](https://redux.js.org/)
 
 <br/>
